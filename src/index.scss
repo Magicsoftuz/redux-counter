@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin-top: 50px;
+  border: 15px aquamarine solid;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.extra {
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+  grid-template-rows: repeat(1fr, 2);
+}
+.number {
+  grid-column: 1;
+}
